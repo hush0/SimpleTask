@@ -5,42 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08e4d6cb-1d6c-45aa-89fd-c0db1b662ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitingore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/AppBootStrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/common/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/common/exception/IllegalParamsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/common/exception/MethodArgumentNotValidException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/common/exception/TransactionNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/config/CacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/controller/TransactionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/model/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/repository/TransactionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/service/TransactionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/service/impl/TransactionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hush/app/TransactionServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hush/app/AppBootStrap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hush/app/common/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hush/app/common/exception/MethodArgumentNotValidException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hush/app/common/exception/TransactionNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hush/app/config/CacheConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hush/app/controller/TransactionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hush/app/model/Transaction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hush/app/repository/TransactionRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hush/app/service/TransactionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/hush/app/service/impl/TransactionServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hush/app/common/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hush/app/service/impl/TransactionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hush/app/service/impl/TransactionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hush/app/TransactionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hush/app/TransactionServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hush/app/AppBootStrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hush/app/AppBootStrap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hush/app/common/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hush/app/common/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hush/app/common/exception/IllegalParamsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hush/app/common/exception/IllegalParamsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hush/app/common/exception/MethodArgumentNotValidException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hush/app/common/exception/MethodArgumentNotValidException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hush/app/common/exception/TransactionNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hush/app/common/exception/TransactionNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hush/app/controller/TransactionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hush/app/controller/TransactionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hush/app/model/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hush/app/model/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hush/app/repository/TransactionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hush/app/repository/TransactionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hush/app/service/TransactionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hush/app/service/TransactionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hush/app/service/impl/TransactionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hush/app/service/impl/TransactionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hush/app/TransactionServiceTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +201,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TransactionServiceTest.testListByPage">
+  <component name="RunManager" selected="Application.AppBootStrap">
     <configuration name="AppBootStrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hush.app.AppBootStrap" />
       <module name="simple-task" />
@@ -302,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppBootStrap" />
         <item itemvalue="JUnit.TransactionServiceTest.testListByPage" />
         <item itemvalue="JUnit.TransactionServiceTest.testUpdateTranscation" />
         <item itemvalue="JUnit.TransactionServiceTest.testDeleteTranscation" />
         <item itemvalue="JUnit.TransactionServiceTest.testGetTransaction" />
-        <item itemvalue="Application.AppBootStrap" />
       </list>
     </recent_temporary>
   </component>

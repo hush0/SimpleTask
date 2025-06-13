@@ -38,6 +38,13 @@ public class TransactionServiceImpl implements TransactionService {
 
     @Override
     public Transaction createTransaction(Transaction transaction) {
+        if (StringUtils.isEmpty(transaction.getFromAccount())) {
+            throw new IllegalParamsException("fromAccount", "<param> is illegal");
+        }
+        if (transaction.getType() == null) {
+            throw new IllegalParamsException("transaction type", "<param> is illegal");
+        }
+
         transaction.setId(UUID.randomUUID().toString());
         transaction.setCreateTime(LocalDateTime.now());
         return repository.save(transaction);

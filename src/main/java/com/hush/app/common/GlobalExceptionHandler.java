@@ -1,8 +1,12 @@
 package com.hush.app.common;
 
+import com.hush.app.common.exception.IllegalParamsException;
 import com.hush.app.common.exception.TransactionNotFoundException;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
+import org.springframework.lang.Nullable;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.ErrorResponse;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -19,22 +23,22 @@ public class GlobalExceptionHandler {
 
 
     @ExceptionHandler(Exception.class)
-    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    public ResponseEntity<Object> handleNormal(TransactionNotFoundException ex) {
-        return new ResponseEntity<>("service internal error: " + ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    public ResponseEntity<Object> handleIllegalParam(IllegalParamsException ex) {
+        return new ResponseEntity("param illegal: " + ex.getMessage(),HttpStatus.BAD_REQUEST );
     }
 
 
     @ExceptionHandler(TransactionNotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
     public ResponseEntity<Object> handleNotFound(TransactionNotFoundException ex) {
-        return new ResponseEntity<>("transaction not found: " + ex.getMessage(), HttpStatus.NOT_FOUND);
+        return new ResponseEntity("transaction not found: " + ex.getMessage(), HttpStatus.NOT_FOUND);
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public ResponseEntity<Object> handleValidation(MethodArgumentNotValidException ex) {
-        return new ResponseEntity<>("Validation error: " + ex.getMessage(),  HttpStatus.BAD_REQUEST);
+        return new ResponseEntity("Validation error: " + ex.getMessage(),  HttpStatus.BAD_REQUEST);
     }
 
 }
